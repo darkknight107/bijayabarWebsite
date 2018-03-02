@@ -31,9 +31,10 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+  padding-top: 60px;
   box-sizing: border-box; }
 .column,
 .columns {
@@ -45,7 +46,7 @@
 @media (min-width: 400px) {
   .container {
     width: 85%;
-    padding: 0; }
+    padding: 100px; }
 }
 
 /* For devices larger than 550px */
